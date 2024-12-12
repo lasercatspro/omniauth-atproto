@@ -23,7 +23,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ['lib']
 
-  spec.add_dependency 'atproto_client'
+  spec.add_dependency 'atproto_client', '~> 0.1.4'
   spec.add_dependency 'didkit'
   spec.add_dependency 'faraday'
   spec.add_dependency 'jwt', '~> 2.7'
