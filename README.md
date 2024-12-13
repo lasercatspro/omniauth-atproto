@@ -78,7 +78,7 @@ rails atproto:generate_metadata
 ```
 The values from the metadata endpoint should correspond to those you gave as option for the strategy (that's why a generator would be very handy).
 
-All subsequent request made with the token should use the same private_key (with dpop, see the atproto_client gem).
+All subsequent request made with the token should use the same private_key (with dpop), you might want to use https://github.com/lasercatspro/atproto-ruby.
 
 The pds is going to request your app at oauth/client-metadata.json. For developement you will have to use some kind of proxy, like ngrok (there is a "development mode" in the spec but I didnt try it)
 
