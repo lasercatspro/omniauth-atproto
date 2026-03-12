@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.add_dependency 'atproto_client', '~> 0.1.4'
   spec.add_dependency 'didkit'
   spec.add_dependency 'faraday'
-  spec.add_dependency 'jwt', '~> 2.7'
+  spec.add_dependency 'jwt', '>= 2.7'
   spec.add_dependency 'omniauth-oauth2', '~> 1.8'
   spec.add_development_dependency 'bundler', '~> 2.0'
   spec.add_development_dependency 'rake', '~> 13.0'
